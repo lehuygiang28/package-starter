@@ -2,34 +2,48 @@
 
 Kickstart your next Node.js package with this pre-configured TypeScript template. Get up and running in minutes!
 
-## Features
+## ✨ Features
 
-- **TypeScript:** Enjoy type safety and improved code quality.
-- **Jest:** Write comprehensive tests with ease.
-- **Biome:** Maintain a consistent code style with linting and formatting.
-- **rimraf:** Easily clean your build directory.
+- **[TypeScript](https://www.typescriptlang.org/):** Enjoy type safety and improved code quality.
+- **[Jest](https://jestjs.io/):** Write comprehensive tests with ease.
+- **[Biome](https://biomejs.dev/):** Maintain a consistent code style with automated linting and formatting.
+- **[rimraf](https://www.npmjs.com/package/rimraf):** Easily clean your build directory.
 
-## Getting Started
+## 🚀 Quick Start
 
-1. **Clone the repository:**
+You can quickly create a new repository from this template by clicking the **[Use this template](https://github.com/new?template_name=package-starter&template_owner=lehuygiang28)** button at the top of the repository page on GitHub.
 
-   ```**bash**
-   git clone https://github.com/lehuygiang28/package-starter.git
-   ```
+Alternatively, you can use `npx degit` to scaffold a new project from this template:
 
-2. **Navigate to the project directory:**
+1. **Scaffold the project:**
 
    ```bash
-   cd package-starter
+   npx degit lehuygiang28/package-starter my-package
+   cd my-package
    ```
 
-3. **Install dependencies:**
+2. **Install dependencies:**
 
    ```bash
    npm install
    ```
 
-## Scripts
+You can also clone the repository manually:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/lehuygiang28/package-starter.git my-package
+   cd my-package
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+## 🧰 Scripts
 
 - `build`: Builds the project
 - `prepare`: Prepares the project for publishing
@@ -40,7 +54,11 @@ Kickstart your next Node.js package with this pre-configured TypeScript template
 - `format`: Formats the code
 - `format:fix`: Formats the code and fixes any errors
 
-## Contributing
+## 🛠️ Development Recommendations
+
+- Install the [Biome extension](https://biomejs.dev/guides/editors/first-party-plugins/) for a seamless development experience.
+
+## 🙌 Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request if you have any suggestions or improvements.
 
