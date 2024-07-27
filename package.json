@@ -4,11 +4,13 @@
         "type": "git",
         "url": "git+https://github.com/lehuygiang28/package-starter.git"
     },
-    "version": "0.0.1-4",
+    "version": "0.0.1-5",
     "description": "🚀 Kickstart your next Node.js package with this pre-configured TypeScript template. Get up and running in minutes!",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
-    "files": ["lib"],
+    "files": [
+        "lib"
+    ],
     "scripts": {
         "build": "rimraf ./lib && tsc",
         "prepare": "npm run build",
@@ -24,7 +26,15 @@
         "release:minor": "release-it minor",
         "release:major": "release-it major"
     },
-    "keywords": ["typescript", "template", "starter", "nodejs", "npm", "package", "boilerplate"],
+    "keywords": [
+        "typescript",
+        "template",
+        "starter",
+        "nodejs",
+        "npm",
+        "package",
+        "boilerplate"
+    ],
     "author": "lehuygiang28 <lehuygiang28@gmail.com>",
     "license": "MIT",
     "devDependencies": {
