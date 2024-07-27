@@ -8,13 +8,11 @@
     "description": "🚀 Kickstart your next Node.js package with this pre-configured TypeScript template. Get up and running in minutes!",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
-    "files": [
-        "lib"
-    ],
+    "files": ["lib"],
     "scripts": {
         "build": "rimraf ./lib && tsc",
         "prepare": "npm run build",
-        "test": "jest",
+        "test": "jest --passWithNoTests",
         "test:cov": "jest --coverage",
         "lint": "npx @biomejs/biome lint .",
         "lint:fix": "npx @biomejs/biome lint . --write",
@@ -26,15 +24,7 @@
         "release:minor": "release-it minor",
         "release:major": "release-it major"
     },
-    "keywords": [
-        "typescript",
-        "template",
-        "starter",
-        "nodejs",
-        "npm",
-        "package",
-        "boilerplate"
-    ],
+    "keywords": ["typescript", "template", "starter", "nodejs", "npm", "package", "boilerplate"],
     "author": "lehuygiang28 <lehuygiang28@gmail.com>",
     "license": "MIT",
     "devDependencies": {
