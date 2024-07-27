@@ -13,8 +13,6 @@
         "publish": false
     },
     "hooks": {
-        "before": {
-            "scripts": ["npm run format:fix", "npm run lint:fix"]
-        }
+        "after:bump": ["npm run format:fix"]
     }
 }
