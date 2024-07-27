@@ -4,7 +4,7 @@
         "type": "git",
         "url": "git+https://github.com/lehuygiang28/package-starter.git"
     },
-    "version": "0.0.1-2",
+    "version": "0.0.1-3",
     "description": "🚀 Kickstart your next Node.js package with this pre-configured TypeScript template. Get up and running in minutes!",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
