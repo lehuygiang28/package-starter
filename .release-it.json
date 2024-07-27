@@ -1,7 +1,7 @@
 {
     "$schema": "https://unpkg.com/release-it@17/schema/release-it.json",
     "git": {
-        "commitMessage": "chore: release v${version}"
+        "commitMessage": "chore: :bookmark: release v${version}"
     },
     "github": {
         "release": true,
@@ -11,5 +11,10 @@
     },
     "npm": {
         "publish": false
+    },
+    "hooks": {
+        "before": {
+            "scripts": ["npm run format:fix", "npm run lint:fix"]
+        }
     }
 }
