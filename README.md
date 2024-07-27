@@ -8,6 +8,8 @@ Kickstart your next Node.js package with this pre-configured TypeScript template
 - **[Jest](https://jestjs.io/):** Write comprehensive tests with ease.
 - **[Biome](https://biomejs.dev/):** Maintain a consistent code style with automated linting and formatting.
 - **[rimraf](https://www.npmjs.com/package/rimraf):** Easily clean your build directory.
+- **[release-it](https://github.com/release-it/release-it):** Automatically generate release notes, tag ... and publish your release.
+- Built and signed via [GitHub Actions](https://github.com/lehuygiang28/package-starter/actions): Create a GitHub release and your package will be published automatically.
 
 ## 🚀 Quick Start
 
@@ -53,6 +55,8 @@ You can also clone the repository manually:
 - `lint:fix`: Lints the code and fixes any errors
 - `format`: Formats the code
 - `format:fix`: Formats the code and fixes any errors
+- `release`: Releases the project
+- `release:pre`: Pre-releases the project
 
 ## 🛠️ Development Recommendations
 
