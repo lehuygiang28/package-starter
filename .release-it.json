@@ -10,6 +10,6 @@
         "tag": true
     },
     "npm": {
-        "publish": true
+        "publish": false
     }
 }
