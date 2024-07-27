@@ -1,0 +1,32 @@
+{
+    "name": "package-starter",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lehuygiang28/package-starter.git"
+    },
+    "version": "0.0.1",
+    "description": "🚀 Kickstart your next Node.js package with this pre-configured TypeScript template. Get up and running in minutes!",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "files": ["lib"],
+    "scripts": {
+        "build": "rimraf ./lib && tsc",
+        "prepare": "npm run build",
+        "test": "jest",
+        "test:cov": "jest --coverage",
+        "lint": "npx @biomejs/biome lint .",
+        "lint:fix": "npx @biomejs/biome lint . --write",
+        "format": "npx @biomejs/biome format .",
+        "format:fix": "npx @biomejs/biome format --write ."
+    },
+    "keywords": ["typescript", "template", "starter", "nodejs", "npm", "package", "boilerplate"],
+    "author": "lehuygiang28 <lehuygiang28@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@biomejs/biome": "1.8.3",
+        "@types/node": "^20.14.12",
+        "rimraf": "^6.0.1",
+        "ts-jest": "^29.2.3",
+        "typescript": "^5.5.4"
+    }
+}
