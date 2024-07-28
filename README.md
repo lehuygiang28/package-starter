@@ -70,6 +70,7 @@ You can also clone the repository manually:
 
 > Root directory of the package
 
+```md
 package-starter
 ├── .github                         # Github configurations
 ├── .vscode                         # Visual Studio Code configurations
@@ -89,6 +90,7 @@ package-starter
 ├── package.json                    # Manifest file for the package, containing metadata and dependencies
 ├── README.md                       # Readme file for the project
 └── tsconfig.json                   # Configuration file for TypeScript
+```
 
 ### Subdirectories
 
@@ -98,6 +100,7 @@ package-starter
 
 #### Github configurations
 
+```md
 .
 ├── ...
 ├── .github                         # Github configurations
@@ -107,28 +110,34 @@ package-starter
 │   ├── CODE_OF_CONDUCT.md          # Code of conduct for the project
 │   └── FUNDING.md                  # Information about funding the project
 └── ...
+```
 
 #### Visual Studio Code configurations
 
+```md
 .
 ├── ...
 ├── .vscode                         # Visual Studio Code configurations
 │   ├── extensions.json             # Recommended extensions for the project
 │   └── settings.json               # Project-specific settings for VS Code
 └── ...
+```
 
 #### Example usage of the package
 
+```md
 .
 ├── ...
 ├── example                         # Example usage of the package
 │   └── index.ts                    # Example script
 └── ...
+```
 
 #### Compiled JavaScript code
 
 > Files compiled from TypeScript
 
+```md
 .
 ├── ...
 ├── lib                             # Compiled JavaScript code
@@ -137,40 +146,48 @@ package-starter
 │   ├── index.d.ts                  # TypeScript definition file for index.js
 │   └── index.js                    # Compiled JavaScript code for index.ts
 └── ...
+```
 
 #### Node.js modules installed by node packages manager
 
 > All installed Node.js modules by run `npm install` or `yarn install`
 
+```md
 .
 ├── ...
 ├── node_modules                    # Node.js modules installed by npm or yarn
 │   └── ...                         # All installed Node.js modules
 └── ...
+```
 
 #### Source code of the package
 
 > Write your TypeScript code here
 
+```md
 .
 ├── ...
 ├── src                             # Source code of the package
 │   ├── hello-world.ts              # TypeScript code for a hello world function
 │   └── index.ts                    # Main entry point of the package
 └── ...
+```
 
 #### Test files
 
+```md
 .
 ├── ...
 ├── test                            # Test files
 │   └── hello-world.test.ts         # Unit tests for hello-world.ts
 └── ...
+```
 
 #### Configuration files
 
 > Configuration files for the package
 
+```md
 .
 ├── ...
 ├── .editorconfig                   # Configuration file for code editor settings
@@ -184,6 +201,7 @@ package-starter
 ├── package.json                    # Manifest file for the package, containing metadata and dependencies
 ├── README.md                       # Readme file for the project
 └── tsconfig.json                   # Configuration file for TypeScript
+```
 
 ## 🙌 Contributing
 
