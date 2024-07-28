@@ -4,7 +4,7 @@ Kickstart your next Node.js package with this pre-configured TypeScript template
 
 ## ✨ Features
 
-- **[TypeScript](https://www.typescriptlang.org/):** Enjoy type safety and improved code quality.
+- **[TypeScript](https://www.typescriptlang.org/):** Type-safe code with [@tsconfig/recommended](https://github.com/tsconfig/bases#recommended-tsconfigjson) settings.
 - **[Jest](https://jestjs.io/):** Write comprehensive tests with ease.
 - **[Biome](https://biomejs.dev/):** Maintain a consistent code style with automated linting and formatting.
 - **[rimraf](https://www.npmjs.com/package/rimraf):** Easily clean your build directory.
