@@ -14,6 +14,7 @@
         "prepare": "npm run build",
         "test": "jest",
         "test:cov": "jest --coverage",
+        "example": "npx ts-node example/index.ts",
         "lint": "npx @biomejs/biome lint .",
         "lint:fix": "npx @biomejs/biome lint . --write",
         "format": "npx @biomejs/biome format .",
